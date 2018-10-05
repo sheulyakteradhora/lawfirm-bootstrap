@@ -1,0 +1,384 @@
+/*
+Author: Sheuly Akter Adhora
+
+*/
+
+/*
+	======= Index ============
+	1.Global CSS
+	2.Hero Section
+	3.Banner Section
+	4.About Us Section 
+	5.Practice Area Section
+	6.Lawyers Section
+	7.Publication Section
+	8.FAQ Section
+	9.Contact section
+	===========================
+*/
+
+/*===1.Global CSS===*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900');
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	color:#111111; 
+}
+section{
+	padding: 50px 0px;
+}
+ 
+ .img-center{
+ 	display: block;
+ 	margin: 0 auto;
+ }
+
+ .no-padding{
+ 	padding: 0px;
+ }
+
+ h1{
+	 font-family: 'Raleway', sans-serif;
+	 font-size: 36px;
+	 line-height: 30px;
+	 font-weight: 600;	
+
+ }
+h2{
+	color:#111111;
+
+}
+h3{
+
+}
+h4{
+
+}
+h5{
+
+	font-family: 'Open Sans', sans-serif;
+	line-height: 35px;
+	color: #111111;
+
+}
+
+p{
+
+	font-family: 'Open Sans', sans-serif;
+	color: #111111;
+	line-height: 25px; 
+
+}
+a{
+
+}
+.btn-theme{
+
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #e8bf5d;
+    border-radius: 50px;
+
+}
+.btn-theme:hover{
+	background-color: black;
+	color: white;
+}
+
+.roll{
+	padding-bottom: 50px;
+}
+
+
+ /*=== 2.Header Section ===*/
+  header{
+  	height: 75px;
+  }
+
+
+ .navbar-logo{
+ 	display: inline-block;
+ 	padding-top: .35rem;
+ 	padding-bottom: .35rem;
+ 	margin-right: 1rem;
+ 	font-size: 24px;
+ 	line-height: inherit;
+ 	white-space: nowrap;
+ 	font-weight: 700;
+ 	color: #111111;
+ }
+ .navbar-logo:hover{
+ 	color: #111111; 
+ }
+ span{
+ 	color: #e8bf5d;
+
+ }
+ .navbar-nav .nav-item{
+ 	padding: 15px 15px;
+ }
+ .menu-item{
+ 	display: block;
+ 	color: #111111;
+ 	font-weight: 400;
+
+ }
+
+
+.menu-item:hover{
+	color: #111111;
+	border-bottom: 3px solid #e8bf5d; 
+	
+}
+
+ /*=== 3.hero Section ===*/
+ .hero{
+ 	background: url(../img/hero.png) no-repeat;
+ 	background-size: cover;
+ 	height: 100vh;
+ }
+ .hero-content{
+ 	padding-top:450px; 
+ }
+ .hero-client{
+ 	border-left: 1px solid #e8bf5d;
+ 	padding: 0px 20px;
+ 	color: white;
+
+ }
+ .hero-client h1{
+ 	letter-spacing: 3px;
+ }
+ .hero-client h5{
+ 	color: white;
+ }
+
+
+ /* 4.About Us Section */
+ .about{
+ 	background: url(../img/about-us.png) no-repeat;
+
+ }
+ .about-heading{
+ 	border-left: 1px solid #e8bf5d;
+ 	padding: 11px 20px;
+ 	
+ }
+ .about-heading h5{
+ 	width: 60%;
+ 	color: #666666;
+}
+.about-content{
+	padding: 50px;
+}
+.about-content h2{
+	font-weight: 700px;
+	font-size: 24px;
+	padding-top: 20px;
+	color: #111111;
+}
+/* 5.Practice Area Section */
+.practice-content{
+	padding-top: 50px;
+	border-left: 1px solid #e8bf5d;
+	color: white;
+}
+.practice-content h2{
+	color: white;
+}
+.practice-content p{
+	color: white;
+}
+.practice{
+	background: url(../img/practice.png) no-repeat;
+}
+.practice-area{
+	padding-top: 50px;
+	margin-left: 15px;
+}
+.icon-one p{
+	color: white;
+	padding-top: 20px;
+}
+.icon-two{
+	padding-top: 10px;
+	margin-left: 10px;
+}
+.icon-two p{
+	color: white;
+}
+
+/* 6.Lawyers Section */
+.lawyers-content{
+	padding-top: 20px;
+	border-left: 1px solid #e8bf5d;
+}
+.lawyers-team{
+	padding-top: 50px;
+}
+.lawyers-team h4{
+	padding-top: 20px;
+}
+.lawyers-team h6{
+	padding-top:5px;
+}
+
+/* 7.Publication Section */
+.publications{
+	background: url(../img/practice.png) no-repeat;
+
+}
+
+.publications-content{
+	padding-top: 20px;
+	border-left: 1px solid #e8bf5d;
+}
+.client{
+	padding-top: 30px;
+}
+.pub-img{
+	box-shadow: 13px 13px 0px #e8bf5d;
+	width: 350px;
+	height: 300px;
+
+ 
+}
+.publications-content h2{
+	color: white;
+}
+.publications-content h5{
+	color: white;
+}
+
+.publications p{
+	color: white;
+	padding-top: 20px;
+}
+.client h4{
+	color: white;
+	padding-top: 30px;
+
+}
+.client h6{
+	color: white;
+	padding-top: 10px;
+
+}
+.recent-pub{
+	background: url(../img/about-us.png) no-repeat;
+}
+.recent-pub-content{
+	color: #111111;
+	padding-top: 20px;
+	border-left: 1px solid #e8bf5d;
+}
+/* 8.FAQ Section */
+.faq{
+	background: url(../img/practice.png);
+}
+.faq-content{
+	padding-top: 20px;
+	border-left: 1px solid #e8bf5d;
+
+}
+.faq-content h2{
+	color: white;
+}
+.faq-content h5{
+	color: white;
+}
+.faq-row-two{
+	background-color: #e8bf5d;
+}
+.first-q{
+	border-bottom:1px solid #e8bf5d; 
+}
+.first-q h6{
+	color:#e8bf5d;
+	padding-top: 30px;
+}
+
+.first-q h2{
+	color:white;
+	padding-top: 6px;
+}
+.faq-row-two{
+	box-shadow: 3px 3px 20px #e8bf5d;
+}
+.faq-row-two p{
+	padding: 30px 30px;
+} 
+.first-ques h6{
+	color:white;
+	padding-top: 30px;
+}
+.first-ques{
+	border-bottom:1px solid #e8bf5d; 
+}
+
+.first-ques h2{
+	color:white;
+	padding-top: 6px;
+}
+
+/* 9.Contact section */
+.contact{
+	background: url(../img/about-us.png) no-repeat;
+}
+.con-content{
+	padding-top: 20px;
+	border-left: 1px solid #e8bf5d;
+}
+.box{
+	background-color: white;
+	box-shadow: -3px -2px 40px #bfbfbf;
+	border-radius:3px;
+	padding: 40px 40px;
+	margin-top: 30px;
+	width: 100% !important;
+}
+.map{
+	width: 400px;
+	height: 300px;
+	box-shadow: -15px 15px 0px #e8bf5d;
+}
+.form-content{
+	padding: 5px 5px;
+	width: 100%;
+	margin-top: 20px;
+	border: none;
+	border-bottom: 1px solid #111111;
+	border-radius: 0;
+	outline: none;
+	box-shadow: none;
+	
+}
+.faq-btn button{
+	margin-top: 20px;
+	background-color: #e8bf5d;
+}
+/* Footer section */
+.social-icon p{
+
+}
+.social-icon li{
+	list-style: none;
+	display: inline; 
+	font-size: 20px;
+	color: white;
+	padding: 0px 10px;
+
+}
